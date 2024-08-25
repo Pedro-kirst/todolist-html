@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/output.css">
+    <script src="script.js" defer></script>
+    <title>Todolist</title>
+</head>
+
+<body class="bg-blue-dark">
+    <div class="w-[600px] mx-auto">
+        <h2 class="text-white text-center text-3xl p-6">Minha lista de tarefas</h2>
+        <div class="flex justify-center">
+            <input class="h-10 rounded-tl-md rounded-bl-md p-2 outline-lime-300" type="text"
+                placeholder="Digite aqui a tarefa">
+            <button onclick="adicionaTarefa()" class="bg-blue-950 text-white p-2 rounded-tr-md rounded-br-md">Adicionar
+                tarefa</button>
+        </div>
+        <div class="flex items-center justify-center">
+            <ul class=" bg-blue-950 w-[310px]  mt-4 text-white"></ul>
+        </div>
+    </div>
+</body>
+
+</html>
